@@ -1,5 +1,5 @@
 <template>
-    <input v-model="message" placeholder="Search" />
+    <input type='search' class="search_input" v-model="message" placeholder="Search" />
 </template>
 
 <script>
@@ -12,11 +12,14 @@ export default {
 </script>
 
 <style scoped>
-h1{
-  padding: 40px 136px;
-  font-weight: 300;
-  font-size: 44px;
-  letter-spacing: 4px;
-  word-spacing: 3px;
+.search_input{
+  height: 65px;
+  width: 810px;
+  font-size: 25px;
+  border: none;
+  background: #424242;
+  opacity: 20%;
+  padding: 20px 20px;
+  border-radius: 4px;
 }
 </style>
